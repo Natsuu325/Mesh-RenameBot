@@ -5,9 +5,9 @@ try:
 except ImportError:
     class Config:
         DATABASE_URL = [str, ""]
-        API_HASH = [str, "abcdedf......"]
-        API_ID = [int, 1234567]
-        BOT_TOKEN = [str, "bot:token here"]
+        API_HASH = [str, "82d0ac02a96bfa8469fde897429a4135"]
+        API_ID = [int, 7787348]
+        BOT_TOKEN = [str, "6021736783:AAFtI1taF05Ma5cP5ksmRvcuH1bO1vllkvQ"]
         COMPLETED_STR = [str, "▰"]
         REMAINING_STR = [str, "▱"]
         MAX_QUEUE_SIZE = [int, 5]
@@ -20,8 +20,8 @@ except ImportError:
         OWNER_ID = [int, 0]
 
         # Public username url or invite link of private chat
-        FORCEJOIN = [str,""]
-        FORCEJOIN_ID = [int,-100123465978]
+        FORCEJOIN = [str,"https://telegram.me/+J7vWVIyH710wNjI9"]
+        FORCEJOIN_ID = [int,-1001896909099]
 
         TRACE_CHANNEL = [int, 0]
 
