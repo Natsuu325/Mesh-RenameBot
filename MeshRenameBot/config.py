@@ -10,18 +10,18 @@ except ImportError:
         BOT_TOKEN = [str, ""]
         COMPLETED_STR = [str, "▰"]
         REMAINING_STR = [str, "▱"]
-        MAX_QUEUE_SIZE = [int, 5]
+        MAX_QUEUE_SIZE = [int, 10]
         SLEEP_SECS = [int, 10]
         IS_MONGO = [bool, False]
 
         # Access Restriction
         IS_PRIVATE = [bool, False]
         AUTH_USERS = [list,[123456789]]
-        OWNER_ID = [int, 0]
+        OWNER_ID = [int, 1269717144]
 
         # Public username url or invite link of private chat
-        FORCEJOIN = [str,""]
-        FORCEJOIN_ID = [int,]
+        FORCEJOIN = [str,"everykdrama"]
+        FORCEJOIN_ID = [int, -1001871190061]
 
         TRACE_CHANNEL = [int, 0]
 
